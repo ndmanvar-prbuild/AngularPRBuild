@@ -32,6 +32,7 @@ module.exports = function(config) {
     basePath: '',
 
 
+
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
     frameworks: ['jasmine'],
@@ -69,7 +70,8 @@ module.exports = function(config) {
 
 
     sauceLabs: {
-      testName: 'Karma and Sauce Labs demo'
+      testName: 'Karma and Sauce Labs demo',
+      startConnect: false
     },
 
     captureTimeout: 120000,
