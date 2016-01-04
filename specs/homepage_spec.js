@@ -1,5 +1,6 @@
 // spec.js
-describe('AngularJS/Protractor Demo App', function() {
+describe('AngularJS/Protractor Demo App Homepage', function() {
+
   it('should verify title', function() {
     browser.get('http://localhost:8000');
 
@@ -7,4 +8,5 @@ describe('AngularJS/Protractor Demo App', function() {
 
     expect(title.getText()).toEqual('Title');
   });
+
 });
