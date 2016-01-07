@@ -7,4 +7,12 @@ describe('AngularJS/Protractor Demo App', function() {
 
     expect(title.getText()).toEqual('Title');
   });
+
+  it('should verify title 2', function() {
+    browser.get('http://localhost:8000');
+
+    var title = element(by.css('body h1'));
+
+    expect(title.getText()).toEqual('Title');
+  });
 });
