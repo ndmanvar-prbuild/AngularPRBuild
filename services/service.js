@@ -13,7 +13,7 @@ app.service('service', function () {
 
 });
 
-var data = [{'data1': 9, 'data2': 10}];
+var data = [{'data1': 1, 'data2': 2}];
 
 
 
