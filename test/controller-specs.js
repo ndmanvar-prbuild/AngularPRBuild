@@ -13,7 +13,7 @@ describe('ControlerTest', function() {
     it('should load the data', function() {
       var $scope = {};
       var controller = $controller('controller', { $scope: $scope });
-      expect($scope.data[0].data1).toEqual(1);
+      expect($scope.data[0].data1).toEqual(11);
     });
 
     it('should insert data', function() {
